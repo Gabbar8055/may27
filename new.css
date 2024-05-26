@@ -1,0 +1,109 @@
+body {
+    font-style:italic;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: black;
+  }
+  
+  .animation-box {
+    width: 75%;
+    height: 27.5rem;
+    background-color: rgb(0, 0, 0);
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .animation-container {
+    width: 1000rem;
+    height: 30rem;
+  }
+  
+
+  .first-text {
+    font-size: 1.5rem;
+    position: absolute;
+    left: 2.5rem;
+    top: 5rem;
+    opacity: 0;
+    animation-name: topFadeOut;
+    /* animation-delay: 2s; */
+    animation-duration: 100s;
+    color: rgb(51, 129, 184);
+  }
+  
+  .second-text {
+    font-size: 1.5rem;
+    position: absolute;
+    left: 2.5rem;
+    top: 5rem;
+    opacity: 0;
+    animation-name: topFadeOut;
+    animation-delay: 100s;
+    animation-duration: 100s;
+    color: rgb(140, 167, 67);
+  }
+  .third-text {
+    font-size: 1.5rem;
+    position: absolute;
+    left: 2.5rem;
+    top: 5rem;
+    opacity: 0;
+    animation-name: topFadeOut;
+    animation-delay: 200s;
+    animation-duration: 100s;
+    color: rgb(156, 69, 155);
+  }
+  .fourth-text {
+    font-size: 1.5rem;
+    position: absolute;
+    left: 2.5rem;
+    top: 5rem;
+    opacity: 0;
+    animation-name: topFadeOut;
+    animation-delay: 300s;
+    animation-duration: 100s;
+    color: rgb(151, 116, 36);
+  }
+  .fifth-text {
+    font-size: 1.5rem;
+    position: absolute;
+    left: 2.5rem;
+    top: 5rem;
+    opacity: 0;
+    animation-name: topFadeOut;
+    animation-delay: 400s;
+    animation-duration: 100s;
+    color: rgb(178, 113, 75);
+  }
+  
+  .we{
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    left: 20%;
+    bottom: 20%;
+    opacity: 0;
+    color: aliceblue;
+    animation: topFadeOut;
+    animation-delay: 500s;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes topFadeOut {
+    0% {
+      position: absolute;
+      top: -3rem;
+      opacity: 0;
+    }
+  
+    90% {
+      position: absolute;
+      top: 25%;
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 0;
+    }
+  }
+  
